@@ -35,7 +35,7 @@ It helps students generate study materials, create schedules, summarize notes, a
 ## How to Use
 
 1. Open the application.
-2. Choose a feature (Study Materials, Schedule, Notes, or Progress).
+2. Choose a feature (Fetch Study Materials, Schedule Tasks, Summarize Notes, or Track Progress).
 3. Enter the required details.
 4. Click the Generate button.
 5. View the AI-generated results.
@@ -47,7 +47,7 @@ It helps students generate study materials, create schedules, summarize notes, a
 - Python
 - Streamlit
 - Google Generative AI (Gemini)
-- dotenv
+- python-dotenv
 
 ---
 
@@ -71,13 +71,11 @@ cd student-study-planner-agent
 pip install -r requirements.txt
 ```
 
-### 4. Create a `.env` file
+### 4. Create a .env file
 
 Create a `.env` file in the project folder and add your Google Gemini API key:
 
-```env
 GOOGLE_API_KEY=your_api_key_here
-```
 
 ### 5. Run the application
 
