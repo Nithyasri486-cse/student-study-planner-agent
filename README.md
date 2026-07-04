@@ -23,6 +23,23 @@ It helps students generate study materials, create schedules, summarize notes, a
 - Analyze study progress
 - Provides AI-based feedback and motivation
 
+## Additional Features
+
+- 🌙 Light/Dark theme toggle
+- 🗑️ Clear cache with a single click
+- 📄 Export generated content as PDF
+- ⚡ Fast AI-generated responses for user requests
+
+---
+
+## How to Use
+
+1. Open the application.
+2. Choose a feature (Study Materials, Schedule, Notes, or Progress).
+3. Enter the required details.
+4. Click the Generate button.
+5. View the AI-generated results.
+
 ---
 
 ## 🛠️ Tech Stack
@@ -37,6 +54,6 @@ It helps students generate study materials, create schedules, summarize notes, a
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/student-study-planner-agent
+git clone https://github.com/Nithyasri486-cse/student-study-planner-agent
 cd student-study-planner-agent
 pip install -r requirements.txt
