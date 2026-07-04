@@ -53,7 +53,43 @@ It helps students generate study materials, create schedules, summarize notes, a
 
 ## 📦 Installation
 
+### 1. Clone the repository
+
 ```bash
-git clone https://github.com/Nithyasri486-cse/student-study-planner-agent
+git clone https://github.com/Nithyasri486-cse/student-study-planner-agent.git
+```
+
+### 2. Navigate to the project folder
+
+```bash
 cd student-study-planner-agent
+```
+
+### 3. Install the required packages
+
+```bash
 pip install -r requirements.txt
+```
+
+### 4. Create a `.env` file
+
+Create a `.env` file in the project folder and add your Google Gemini API key:
+
+```env
+GOOGLE_API_KEY=your_api_key_here
+```
+
+### 5. Run the application
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## 🚀 Future Enhancements
+
+- Google Calendar integration
+- Email reminders for study schedules
+- AI-generated quizzes
+- Multi-language support
